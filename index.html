@@ -8,46 +8,46 @@
   <script defer src="https://pyscript.net/latest/pyscript.js"></script>
   <!-- <style type="text/css"> -->
   <!-- </style> -->
-  <py-config>
-    [[fetch]]
-    files = ["./travel.py"]
-  </py-config>
+<py-config>
+  [[fetch]]
+  files = ["./travel.py"]
+</py-config>
 </head>
 
 <body>
   <h1>Your next travel destination will be ...
     <py-script>
-      import random
-      class Travel:
-      """Create a new member. """
-      def __init__(self, location_list):
-      self.location_list = location_list
+import random
+class Travel:
+    """Create a new member. """
+    def __init__(self, location_list):
+        self.location_list = location_list
 
-      def locations(self):
+    def locations(self):
       """Print location list. """
       print(self.location_list)
 
-      location_list = [
-      "Lisbon",
-      "Madrid",
-      "Tokyo",
-      "Munich",
-      "Paris",
-      "Auckland",
-      "Sydney",
-      "Seoul",
-      "Göbekli Tepe",
-      "Nan Madol",
-      "Newgrange",
-      "Skellig Islands",
-      "Oslo",
-      "Brussels",
-      ]
+location_list = [
+    "Lisbon",
+    "Madrid",
+    "Tokyo",
+    "Munich",
+    "Paris",
+    "Auckland",
+    "Sydney",
+    "Seoul",
+    "Göbekli Tepe",
+    "Nan Madol",
+    "Newgrange",
+    "Skellig Islands",
+    "Oslo",
+    "Brussels",
+]
 
-      travel = Travel(location_list)
-      travel.locations()
+travel = Travel(location_list)
+travel.locations()
 
-      print(random.choice(location_list))
+print(random.choice(location_list))
     </py-script>
   </h1>
 </body>
