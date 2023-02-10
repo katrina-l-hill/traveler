@@ -14,20 +14,20 @@ class Travel:
 
 
 location_list = [
-    "Lisbon",
-    "Madrid",
-    "Tokyo",
-    "Munich",
-    "Paris",
-    "Auckland",
-    "Sydney",
-    "Seoul",
+    "Lisbon, Portugal",
+    "Madrid, Spain",
+    "Tokyom, Japan",
+    "Munich, Germany",
+    "Paris, Franch",
+    "Auckland, New Zealand",
+    "Sydney, Australia",
+    "Seoul, South Korea",
     "Göbekli Tepe",
-    "Nan Madol",
-    "Newgrange",
-    "Skellig Islands",
-    "Oslo",
-    "Brussels",
+    "Nan Madol, Micronesia",
+    "Newgrange, Ireland",
+    "Skellig Islands, Ireland",
+    "Oslo, Norway",
+    "Brussels, Belgium",
 ]
 
 travel = Travel(location_list)
