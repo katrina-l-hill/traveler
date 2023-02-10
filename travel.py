@@ -16,9 +16,9 @@ class Travel:
 location_list = [
     "Lisbon, Portugal",
     "Madrid, Spain",
-    "Tokyom, Japan",
+    "Tokyo, Japan",
     "Munich, Germany",
-    "Paris, Franch",
+    "Paris, France",
     "Auckland, New Zealand",
     "Sydney, Australia",
     "Seoul, South Korea",
