@@ -22,7 +22,7 @@ location_list = [
     "Auckland, New Zealand",
     "Sydney, Australia",
     "Seoul, South Korea",
-    "Göbekli Tepe",
+    "Göbekli Tepe, Turkey",
     "Nan Madol, Micronesia",
     "Newgrange, Ireland",
     "Skellig Islands, Ireland",
