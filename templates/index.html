@@ -7,10 +7,21 @@
   <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
   <script defer src="https://pyscript.net/latest/pyscript.js"></script>
   <style type="text/css">
-  .py-terminal {
-    display: flex;
-    flex-wrap: wrap;
-  }
+    .py-terminal {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 10%;
+      background-color:bisque;
+      color:black;
+      text-align: center;
+    }
   </style>
   <!-- <link rel="stylesheet" href="static/css/style.css"> -->
   <!-- <py-config>
@@ -24,18 +35,13 @@
   <py-script src="../travel.py">
   </py-script>
 
-  <div>
-    <p>
-      This is a paragraph tag for testing.
-    </p>
+  <div class = "footer">
+    <footer>
+      <p>Author: Katrina Hill. &copy; 2022<br>
+        <a href="mailto:katrina.lenell.hill@gmail.com">katrina.lenell.hill@gmail.com</a>
+      </p>
+    </footer>
   </div>
-
-  <footer>
-    <p>Author: Katrina Hill. &copy; 2022<br>
-      <a href="mailto:katrina.lenell.hill@gmail.com">katrina.lenell.hill@gmail.com</a>
-    </p>
-  </footer>
-
 </body>
 
 </html>
