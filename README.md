@@ -6,11 +6,8 @@
 
 ### Overview
 
-<!-- How the game works:
-
-- the 8 ball is displayed on the page
-- the words 'Where should I go?' are printed at the top of the page
-- player clicks on the 8 ball to select a location
-- a random location is displayed somewhere on the page from the location list -->
-
 This app is designed to generate a random location up on launch into the browser. A random location will be displayed on the screen beneath a list of all locations choices.
+
+#### Setup/Initialization
+
+Open Live Server by right clicking on index.html file and selecting Open with Live Server or click on the Go Live symbol.
