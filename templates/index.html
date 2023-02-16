@@ -6,9 +6,13 @@
   <title>Travel Destination</title>
   <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
   <script defer src="https://pyscript.net/latest/pyscript.js"></script>
-  <!-- <style type="text/css"> -->
-  <!-- </style> -->
-  <link rel="stylesheet" href="static/css/style.css">
+  <style type="text/css">
+  .py-terminal {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  </style>
+  <!-- <link rel="stylesheet" href="static/css/style.css"> -->
   <!-- <py-config>
   [[fetch]]
   files = ["../travel.py"]
@@ -18,37 +22,6 @@
 <body>
   <h1>Your next travel destination will be ... </h1>
   <py-script src="../travel.py">
-    <!-- import random
-class Travel:
-    """Create a new member. """
-    def __init__(self, location_list):
-        self.location_list = location_list
-
-    def locations(self):
-      """Print location list. """
-      print(self.location_list)
-
-location_list = [
-    "Lisbon, Portugal",
-    "Madrid, Spain",
-    "Tokyo, Japan",
-    "Munich, Germany",
-    "Paris, France",
-    "Auckland, New Zealand",
-    "Sydney, Australia",
-    "Seoul, South Korea",
-    "Göbekli Tepe",
-    "Nan Madol, Micronesia",
-    "Newgrange, Ireland",
-    "Skellig Islands, Ireland",
-    "Oslo, Norway",
-    "Brussels, Belgium",
-]
-
-travel = Travel(location_list)
-travel.locations()
-
-print(random.choice(location_list)) -->
   </py-script>
 
   <div>

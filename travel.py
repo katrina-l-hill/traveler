@@ -10,7 +10,7 @@ class Travel:
 
     def locations(self):
         """Print location list."""
-        print(self.location_list)
+        # print(self.location_list)
 
 
 location_list = [
