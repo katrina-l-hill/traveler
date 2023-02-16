@@ -7,20 +7,20 @@
   <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
   <script defer src="https://pyscript.net/latest/pyscript.js"></script>
   <style type="text/css">
-    .py-terminal {
-      display: flex;
-      flex-wrap: wrap;
-    }
-
     .footer {
       position: fixed;
       left: 0;
       bottom: 0;
       width: 100%;
-      height: 10%;
-      background-color:bisque;
-      color:black;
+      height: 7vh;
+      padding-bottom: 1%;
+      background-color: azure;
+      color: black;
       text-align: center;
+    }
+
+    .h1 {
+      color: blue;
     }
   </style>
   <!-- <link rel="stylesheet" href="static/css/style.css"> -->
@@ -31,13 +31,14 @@
 </head>
 
 <body>
-  <h1>Your next travel destination will be ... </h1>
+  <div class="h1">
+    <h1>Your next travel destination will be ... </h1>
+  </div>
   <py-script src="../travel.py">
   </py-script>
-
-  <div class = "footer">
+  <div class="footer">
     <footer>
-      <p>Author: Katrina Hill. &copy; 2022<br>
+      <p>Author: Katrina Hill. &copy; 2022
         <a href="mailto:katrina.lenell.hill@gmail.com">katrina.lenell.hill@gmail.com</a>
       </p>
     </footer>
