@@ -33,4 +33,4 @@ location_list = [
 travel = Travel(location_list)
 travel.locations()
 
-# print(random.choice(location_list))
+print(random.choice(location_list))

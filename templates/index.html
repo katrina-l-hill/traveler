@@ -9,16 +9,16 @@
   <!-- <style type="text/css"> -->
   <!-- </style> -->
   <link rel="stylesheet" href="static/css/style.css">
-<!-- <py-config>
+  <!-- <py-config>
   [[fetch]]
   files = ["../travel.py"]
 </py-config> -->
 </head>
 
 <body>
-  <h1>Your next travel destination will be ...  </h1>
-    <py-script>
-import random
+  <h1>Your next travel destination will be ... </h1>
+  <py-script src="../travel.py">
+    <!-- import random
 class Travel:
     """Create a new member. """
     def __init__(self, location_list):
@@ -48,14 +48,21 @@ location_list = [
 travel = Travel(location_list)
 travel.locations()
 
-print(random.choice(location_list))
-    </py-script>
+print(random.choice(location_list)) -->
+  </py-script>
 
-    <footer>
-      <p>Author: Katrina Hill. &copy; 2022<br>
-        <a href="mailto:katrina.lenell.hill@gmail.com">katrina.lenell.hill@gmail.com</a></p>
-    </footer>    
-    
-  </body>
+  <div>
+    <p>
+      This is a paragraph tag for testing.
+    </p>
+  </div>
+
+  <footer>
+    <p>Author: Katrina Hill. &copy; 2022<br>
+      <a href="mailto:katrina.lenell.hill@gmail.com">katrina.lenell.hill@gmail.com</a>
+    </p>
+  </footer>
+
+</body>
 
 </html>
