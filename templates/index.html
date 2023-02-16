@@ -8,14 +8,15 @@
   <script defer src="https://pyscript.net/latest/pyscript.js"></script>
   <!-- <style type="text/css"> -->
   <!-- </style> -->
-<py-config>
+  <link rel="stylesheet" href="static/css/style.css">
+<!-- <py-config>
   [[fetch]]
-  files = ["./travel.py"]
-</py-config>
+  files = ["../travel.py"]
+</py-config> -->
 </head>
 
 <body>
-  <h1>Your next travel destination will be ...
+  <h1>Your next travel destination will be ...  </h1>
     <py-script>
 import random
 class Travel:
@@ -49,7 +50,12 @@ travel.locations()
 
 print(random.choice(location_list))
     </py-script>
-  </h1>
-</body>
+
+    <footer>
+      <p>Author: Katrina Hill. &copy; 2022<br>
+        <a href="mailto:katrina.lenell.hill@gmail.com">katrina.lenell.hill@gmail.com</a></p>
+    </footer>    
+    
+  </body>
 
 </html>
